@@ -18,7 +18,7 @@ class _OutlinedButtonExampleState extends State<OutlinedButtonExample> {
         textStyle: const TextStyle(fontSize: 17),
         shape: const BeveledRectangleBorder(),
         side: const BorderSide(width: 0.1, color: Color.fromARGB(255, 197, 197, 197)),
-        foregroundColor: Colors.white);
+        foregroundColor: Colors.blue);
 
     return Center(
       child: Column(
