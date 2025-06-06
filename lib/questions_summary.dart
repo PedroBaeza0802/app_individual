@@ -22,7 +22,7 @@ class QuestionsSummary extends StatelessWidget {
                   height: 30,
                   padding: const EdgeInsets.only(top: 4),
                   decoration: BoxDecoration(
-                      color: data['user_answer'] == data['correct_answer']
+                      color: data['your_answer'] == data['correct_answer']
                           ? const Color.fromARGB(255, 64, 164, 231)
                           : const Color.fromARGB(255, 242, 124, 247),
                       borderRadius: BorderRadius.circular(17)),
@@ -51,7 +51,7 @@ class QuestionsSummary extends StatelessWidget {
                         height: 5,
                       ),
                       Text(
-                        data['user_answer'] as String,
+                        data['your_answer'] as String,
                         style: GoogleFonts.lato(
                           color: const Color.fromARGB(255, 208, 147, 248),
                           fontSize: 16,
